@@ -40,7 +40,7 @@ local cfg = inicfg.load({
 
 local tag = '{0087FF}Reminder: {FFFFFF}'
 local scriptname = 'reminder-by-ronald-bennet'
-local scriptversion = 'v0.0.1'
+local scriptversion = '19.01.23'
 
 mcx = 0x0087FF
 mc = '{0087FF}'
