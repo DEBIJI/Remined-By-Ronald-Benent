@@ -1,6 +1,12 @@
 require 'lib.moonloader'
 script_name("reminder-by-ronald-benent")
 script_version("19.01.23")
+script_author('Ronald_Bennet')
+script_description('Hello, i hack your PC hehehe')
+local inicfg = require 'inicfg'
+local encoding = require 'encoding'
+encoding.default = 'CP1251'
+u8 = encoding.UTF8
 
 -- https://github.com/qrlk/moonloader-script-updater
 local enable_autoupdate = true -- false to disable auto-update + disable sending initial telemetry (server, moonloader version, script version, samp nickname, virtual volume serial number)
@@ -17,13 +23,6 @@ if enable_autoupdate then
         end
     end
 end
-
-script_author('Ronald_Bennet')
-script_description('Hello, i hack your PC hehehe')
-local inicfg = require 'inicfg'
-local encoding = require 'encoding'
-encoding.default = 'CP1251'
-u8 = encoding.UTF8
 
 local cfg = inicfg.load({
 	Remind={
