@@ -1,3 +1,4 @@
+require 'lib.moonloader'
 script_name("reminder-by-ronald-benent")
 script_version("19.01.2023")
 
