@@ -1,5 +1,5 @@
 script_name("reminder-by-ronald-benent")
-script_version("19.01.23")
+script_version("19.01.2023")
 
 -- https://github.com/qrlk/moonloader-script-updater
 local enable_autoupdate = true -- false to disable auto-update + disable sending initial telemetry (server, moonloader version, script version, samp nickname, virtual volume serial number)
